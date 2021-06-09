@@ -5,6 +5,25 @@ module.exports.data =[
   },
   {
     text: 'Learing',
-    children: ['/learning/foo.md', '/learning/bar.md'],
+    children: [
+      {
+        text: 'Front End',
+        children: [
+          '/learning/frontEnd/js.md'
+        ]
+      },
+      {
+        text: 'Investment',
+        children: [
+          '/learning/investment/'
+        ]
+      },
+      {
+        text: 'Products',
+        children: [
+          '/learning/products/'
+        ]
+      }
+    ],
   },
 ]

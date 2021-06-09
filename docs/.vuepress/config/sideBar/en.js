@@ -8,5 +8,14 @@ module.exports = {
         '/componentsDocs/foo.md'
       ]
     }
+  ],
+  '/learning/frontEnd/': [
+    {
+      isGroup: true,
+      text: 'Front End',
+      children: [
+        '/learning/frontEnd/js.md'
+      ]
+    }
   ]
 }
